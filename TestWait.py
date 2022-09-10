@@ -35,4 +35,4 @@ class TestWait():
         browser.find_element(By.ID, "solve").submit()
         result = browser.switch_to.alert.text
         pyperclip.copy(result.split(":")[1])
-        browser.quit()
+
